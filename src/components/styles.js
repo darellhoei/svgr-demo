@@ -1,4 +1,4 @@
-import {css} from '@emotion/core';
+import { css } from '@emotion/core';
 
 export const AppContainer = css`
   position: absolute;
@@ -8,17 +8,17 @@ export const AppContainer = css`
   transform: translate(-50%, -50%);
 `;
 
-export const BreakDiv = css`
-  flex-basis: 100%;
-  height: 0;
-`;
+export const BreakDiv = {
+  flexBasis: '100%',
+  height: 0,
+};
 
-export const AppButtonWrapper = css`
-  display: flex;
-  justify-content: center;
-  margin-top: 16px;
-`;
+export const AppButtonWrapper = {
+  display: 'flex',
+  justifyContent: 'center',
+  marginTop: '16px',
+};
 
-export const AppButtonMargin = css`
-  margin: 0px 8px;
-`;
+export const AppButtonMargin = {
+  margin: '0px 8px',
+};
