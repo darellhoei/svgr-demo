@@ -1,11 +1,6 @@
-import React from "react";
-import { Button } from "evergreen-ui";
-import {
-  AppContainer,
-  AppButtonWrapper,
-  TextArea,
-  AppButtonMargin,
-} from "./styles";
+import React from 'react';
+import {Button} from 'evergreen-ui';
+import {AppContainer, AppButtonWrapper, AppButtonMargin} from './styles';
 
 const App = () => {
   return (
