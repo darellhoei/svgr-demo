@@ -8,7 +8,7 @@ import {
   AppOverlay,
   SvgStyle,
 } from './styles';
-import TokopediaLogo from '../assets/TokopediaLogo';
+import TokopediaLogo from '../assets/tokopedia-logo.svg';
 
 const App = () => {
   const [dark, setDark] = useState(false);

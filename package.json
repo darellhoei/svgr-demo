@@ -10,6 +10,7 @@
     "@babel/preset-env": "^7.9.5",
     "@babel/preset-react": "^7.9.4",
     "@svgr/cli": "^5.3.1",
+    "@svgr/webpack": "^5.3.1",
     "babel-loader": "^8.1.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.1.0",
