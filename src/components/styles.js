@@ -1,5 +1,20 @@
 import { css } from '@emotion/core';
 
+export const AppOverlay = (dark) => ({
+  // Color
+  backgroundColor: dark ? '#393d43' : '#fff',
+
+  // Transitions
+  transition: 'background-color 1.2s ease',
+
+  // Dimensions
+  position: 'fixed',
+  width: '100%',
+  height: '100%',
+  top: '0px',
+  left: '0px',
+});
+
 export const AppContainer = css`
   position: absolute;
   top: 50%;
