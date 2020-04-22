@@ -37,3 +37,10 @@ export const AppButtonWrapper = {
 export const AppButtonMargin = {
   margin: '0px 8px',
 };
+
+export const SvgStyle = (dark) => ({
+  path: {
+    fill: dark ? '#fff' : '#03AC0E',
+    transition: 'fill 1.4s ease',
+  },
+});
