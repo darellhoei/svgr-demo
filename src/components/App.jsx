@@ -6,6 +6,7 @@ import {
   AppButtonMargin,
   BreakDiv,
   AppOverlay,
+  SvgStyle,
 } from './styles';
 import TokopediaLogo from '../assets/tokopedia-logo.svg';
 
@@ -15,7 +16,7 @@ const App = () => {
   return (
     <div css={AppOverlay(dark)}>
       <div css={AppContainer}>
-        <img src={TokopediaLogo} alt="Tokopedia" />
+        <img src={TokopediaLogo} alt="Tokopedia" className={SvgStyle} />
         <div css={BreakDiv} />
         <div css={AppButtonWrapper}>
           <Button
